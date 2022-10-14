@@ -1,0 +1,407 @@
+Unity Editor version:    2021.3.8f1 (b30333d56e81)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H2026)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/student/Documents/MTEC-2120-MarlenXique/MTEC-2120-MiniKeyboard
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61091
+Successfully changed project path to: /Users/student/Documents/MTEC-2120-MarlenXique/MTEC-2120-MiniKeyboard
+/Users/student/Documents/MTEC-2120-MarlenXique/MTEC-2120-MiniKeyboard
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 114.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/student/Documents/MTEC-2120-MarlenXique/MTEC-2120-MiniKeyboard/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+DELL P2715Q preferred device: AMD Radeon HD - FirePro D700 (high power)
+Metal devices available: 2
+0: AMD Radeon HD - FirePro D700 (high power)
+1: AMD Radeon HD - FirePro D700 (high power)
+Using device AMD Radeon HD - FirePro D700 (high power)
+Initializing Metal device caps: AMD Radeon HD - FirePro D700
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56221
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001351 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 112.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (975ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004182 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/MTEC-2120-MarlenXique/MTEC-2120-MiniKeyboard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/MTEC-2120-MarlenXique/MTEC-2120-MiniKeyboard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1582ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1251ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (549ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (101.6 KB). Loaded Objects now: 3840.
+Memory consumption went from 229.2 MB to 229.1 MB.
+Total: 4.239050 ms (FindLiveObjects: 0.453071 ms CreateObjectMapping: 0.166054 ms MarkObjects: 3.464047 ms  DeleteObjects: 0.154206 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8459.668795 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard
+  artifactKey: Guid(c37162a7f4bab4943b202babba10c186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard using Guid(c37162a7f4bab4943b202babba10c186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dd240758571e9a0a920d5bfcf07f6b') in 0.009306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.933771 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard/LightingData.asset
+  artifactKey: Guid(a70454b6a54c1f9498eb4f3a63cac33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard/LightingData.asset using Guid(a70454b6a54c1f9498eb4f3a63cac33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '073264d7b3fd7e03de5363172942120f') in 0.273335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.033974 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Scripts/piano.mixer
+  artifactKey: Guid(9dcf2d51dfd76ea4b913b526a60aad28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Scripts/piano.mixer using Guid(9dcf2d51dfd76ea4b913b526a60aad28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e73cfe65e4166145b925d93859caea') in 0.161972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.992675 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/buttons.wav
+  artifactKey: Guid(3fd0e3c9eff1b8f4da01845bf3cff74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/buttons.wav using Guid(3fd0e3c9eff1b8f4da01845bf3cff74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce44dec416beaabb724828e53522d765') in 0.402249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/c10.wav
+  artifactKey: Guid(00e1b5e2d276e7b4fbec190dc858a983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/c10.wav using Guid(00e1b5e2d276e7b4fbec190dc858a983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e405a3ce25e5518e915fb5582ec40a1f') in 0.012033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/c7.wav
+  artifactKey: Guid(127166be5c68df94f87caddfd2c81e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/c7.wav using Guid(127166be5c68df94f87caddfd2c81e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fa4a2de75933d7308bdfc42b12f0d0') in 0.011639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/c9.wav
+  artifactKey: Guid(7aba3ae4e25ac834795bc7dabb77bd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/c9.wav using Guid(7aba3ae4e25ac834795bc7dabb77bd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ed5f2c218d0db81102151807e65fc7') in 0.012289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/c5.wav
+  artifactKey: Guid(dd553ac2dc73fba49abef8e8a3fb3756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/c5.wav using Guid(dd553ac2dc73fba49abef8e8a3fb3756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd28861a8f8104f552c4e028d31cf42') in 0.010235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/c6.wav
+  artifactKey: Guid(ea0baa0d041cf4a478a1cdf8cf4f08ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Sound/c6.wav using Guid(ea0baa0d041cf4a478a1cdf8cf4f08ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a535ed13188aab500759a8b6c0a86ef2') in 0.011927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.417309 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/25
+  artifactKey: Guid(19a0862e3a947054481d3101d6caebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/25 using Guid(19a0862e3a947054481d3101d6caebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de2720915452a40f642d67b87cb229c') in 0.002726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.381366 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/25/midi_keyboard_25_AlbedoTransparency.png
+  artifactKey: Guid(30e92fd64e8c9b741abc82e2f574284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/25/midi_keyboard_25_AlbedoTransparency.png using Guid(30e92fd64e8c9b741abc82e2f574284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f2c998a2867564cfd0875e37334d51') in 0.426520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/25/midi_keyboard_25_Normal.png
+  artifactKey: Guid(78d31180b02e68a438dbd64fc4c2536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/25/midi_keyboard_25_Normal.png using Guid(78d31180b02e68a438dbd64fc4c2536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0772d40ab5ed1ff9c0ed9a39c0bb62db') in 0.022186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.251934 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/49/midi_keyboard_49_AlbedoTransparency.png
+  artifactKey: Guid(30f15d18bcdded949a1fdae6f6f10002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/49/midi_keyboard_49_AlbedoTransparency.png using Guid(30f15d18bcdded949a1fdae6f6f10002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f773d910000546fe2a73293972935e2') in 0.038177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/49/midi_keyboard_49_MetallicSmoothness.png
+  artifactKey: Guid(feaa6b922e235ee4a81c9f85413e54b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/49/midi_keyboard_49_MetallicSmoothness.png using Guid(feaa6b922e235ee4a81c9f85413e54b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e50cecdce673f1b310866582bf3b50') in 0.039602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.103822 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/61/midi_keyboard_AlbedoTransparency.png
+  artifactKey: Guid(ea86600e3f925f14e8de1a91f646556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/61/midi_keyboard_AlbedoTransparency.png using Guid(ea86600e3f925f14e8de1a91f646556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f06845ef303e074eaef7ce6bdf5c21') in 0.041716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/61/midi_keyboard_MetallicSmoothness.png
+  artifactKey: Guid(0d34948fd3d7df742a16284c0b7abe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/Textures/61/midi_keyboard_MetallicSmoothness.png using Guid(0d34948fd3d7df742a16284c0b7abe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1fda32da2c18ad570d12671d4ed23d') in 0.038103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.680750 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard_25.mat
+  artifactKey: Guid(ca0ae9c106d165148abaa2b776e6888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard_25.mat using Guid(ca0ae9c106d165148abaa2b776e6888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487eb55030e8e0ba3ff8af94ce366239') in 0.621357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard_61.mat
+  artifactKey: Guid(5a970914532c82245b7058929cbec593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard_61.mat using Guid(5a970914532c82245b7058929cbec593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ef8b07956908c536de3da1d86c53e8') in 0.132022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard_25_gray.mat
+  artifactKey: Guid(db14c52bb359db0458fb9544fb8f097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard_25_gray.mat using Guid(db14c52bb359db0458fb9544fb8f097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7400e6b4298bf713b70aa4b6169d5a21') in 0.103874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard_49_gray.mat
+  artifactKey: Guid(ad68267d360be524bb4305eb41c99e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard_49_gray.mat using Guid(ad68267d360be524bb4305eb41c99e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06815c87e575734353db815c4fecfd56') in 0.124800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard_49.prefab
+  artifactKey: Guid(8c3efe77162f2844db28bacff737b737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rune Assets/Musical Instuments/MIDI Keyboard/midi_keyboard_49.prefab using Guid(8c3efe77162f2844db28bacff737b737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eed8ab3d252c92beed7cbf9acda5a00') in 0.331279 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004354 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/MTEC-2120-MarlenXique/MTEC-2120-MiniKeyboard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/MTEC-2120-MarlenXique/MTEC-2120-MiniKeyboard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1686ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (1326ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (514ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (544ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.1 KB). Loaded Objects now: 3889.
+Memory consumption went from 259.8 MB to 259.7 MB.
+Total: 4.191439 ms (FindLiveObjects: 0.300798 ms CreateObjectMapping: 0.138388 ms MarkObjects: 3.636072 ms  DeleteObjects: 0.114606 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004717 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/MTEC-2120-MarlenXique/MTEC-2120-MiniKeyboard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/MTEC-2120-MarlenXique/MTEC-2120-MiniKeyboard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.170 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3735 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (70.9 KB). Loaded Objects now: 4242.
+Memory consumption went from 251.0 MB to 251.0 MB.
+Total: 3.501287 ms (FindLiveObjects: 0.336119 ms CreateObjectMapping: 0.146892 ms MarkObjects: 2.897204 ms  DeleteObjects: 0.119709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
